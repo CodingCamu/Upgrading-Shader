@@ -3,10 +3,10 @@ Shader "Basics/Loading Shader"
     Properties
     {
         _MainTex ("Main Texture", 2D) = "white" {}
+        
         _Color ("Base Color", Color) = (1,1,1,1)
 
         _Speed ("Speed", Float) = 1
-
     
         _Direction ("Direction", Vector) = (1, 0, 0, 0)
     }
